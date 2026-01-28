@@ -6,14 +6,20 @@ theme = 'PaperMod'
 [outputs]
   home = ["HTML", "JSON"]
 
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+
 [params]
   defaultTheme = "auto"
   description = "caulif的个人博客"
   keywords = ["博客", "技术", "生活"]
+  math = true
 
 [params.analytics.google]
   ID = "G-1XVSZMDCP6"
-  comments = true
 
 [params.assets]
   disableFingerprinting = true
