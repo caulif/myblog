@@ -5,6 +5,7 @@ title = 'Transfromer学习记录'
 tags = ["transformer"]
 categories = ["技术"]
 math = true
+ShowToc = true
 +++
 
 > 基于 llama2.c 项目的 run.c 源码注释整理

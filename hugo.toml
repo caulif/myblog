@@ -17,6 +17,14 @@ theme = 'PaperMod'
   description = "caulif的个人博客"
   keywords = ["博客", "技术", "生活"]
   math = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+
+[params.profileMode]
+  enabled = false
 
 [params.analytics.google]
   ID = "G-1XVSZMDCP6"
