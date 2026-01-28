@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://myblog-alpha-mauve.vercel.app"
 languageCode = 'zh-cn'
 title = 'caulif的个人博客'
 theme = 'PaperMod'
@@ -11,8 +11,9 @@ theme = 'PaperMod'
   description = "caulif的个人博客"
   keywords = ["博客", "技术", "生活"]
 
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/caulif"
-  [params.assets]
-          disableFingerprinting = true  # 加上这一行，关闭指纹校验
+[params.assets]
+  disableFingerprinting = true
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/caulif"
