@@ -11,6 +11,10 @@ theme = 'PaperMod'
   description = "caulif的个人博客"
   keywords = ["博客", "技术", "生活"]
 
+[params.analytics.google]
+  ID = "G-1XVSZMDCP6"
+  comments = true
+
 [params.assets]
   disableFingerprinting = true
 
