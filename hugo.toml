@@ -1,4 +1,4 @@
-baseURL = 'https://my-blog-alpha-mauve.vercel.app/'
+baseURL = 'https://myblog-alpha-mauve.vercel.app/'
 languageCode = 'zh-cn'
 title = 'caulif的个人博客'
 theme = 'PaperMod'
