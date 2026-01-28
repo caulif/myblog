@@ -2,7 +2,9 @@ baseURL = "https://myblog-alpha-mauve.vercel.app/"
 languageCode = 'zh-cn'
 title = 'caulif的个人博客'
 theme = 'PaperMod'
-googleAnalytics = "G-1XVSZMDCP6"
+[services]
+    [services.googleAnalytics]
+        id = "G-1XVSZMDCP6"
 
 [outputs]
   home = ["HTML", "JSON"]
