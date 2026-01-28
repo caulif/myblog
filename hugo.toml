@@ -2,6 +2,12 @@ baseURL = 'https://myblog-alpha-mauve.vercel.app/'
 languageCode = 'zh-cn'
 title = 'caulif的个人博客'
 theme = 'PaperMod'
+outputs.home = ["HTML", "JSON"]
 
 [params]
   defaultTheme = "auto" # 跟随系统切换黑白模式
+  description = "caulif的个人博客"  # 网站描述
+  keywords = "博客,技术,生活"  # 关键词
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/你的用户名"
