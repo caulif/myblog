@@ -1,0 +1,6 @@
+<head>
+<!-- 如果hugo的版本大于0.120,使用此参数{{ if not hugo.IsServer }} -->
+{{- iif not hugo.IsServer }}
+	{{ template "_internal/google_analytics.html" . }}
+{{- end }}
+</head>
