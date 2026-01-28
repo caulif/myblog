@@ -1,0 +1,5 @@
+1{{/* 防止hugo server的流量也计入流量监测 */}}
+2{{- if not hugo.IsServer -}}
+3    {{- template "_internal/google_analytics_async.html" . -}}
+4{{- end -}}
+5{{- partial "head/custom.html" . -}}
