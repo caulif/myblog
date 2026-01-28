@@ -1,0 +1,7 @@
+baseURL = 'https://你的域名.com/' # 暂时先不管，后面发布时再改
+languageCode = 'zh-cn'
+title = 'caulif的个人博客'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "auto" # 跟随系统切换黑白模式
