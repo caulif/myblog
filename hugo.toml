@@ -32,7 +32,6 @@ theme = 'PaperMod'
 
 [params.homeInfoParams]
   Title = "👋 欢迎来到 caulif 的博客"
-  Content = "记录技术学习与思考"
 
 [params.profileMode]
   enabled = false
