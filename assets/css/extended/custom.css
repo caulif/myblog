@@ -1,0 +1,44 @@
+/* 自定义样式 */
+
+/* 首页标题样式 */
+.home-info .entry-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* 文章卡片阴影效果 */
+.post-entry {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 代码块样式优化 */
+.highlight {
+    border-radius: 8px;
+}
+
+/* 标签样式 */
+.post-tags a {
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+
+/* 目录样式 */
+.toc {
+    border-radius: 8px;
+}
+
+/* 链接颜色 */
+.post-content a {
+    text-decoration: underline;
+    text-decoration-color: var(--primary);
+    text-underline-offset: 3px;
+}
+
+.post-content a:hover {
+    color: var(--primary);
+}
