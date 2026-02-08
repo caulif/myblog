@@ -2,6 +2,8 @@
 date = '2026-01-31T20:28:07+08:00'
 draft = false
 title = '今天写了一个skill'
+tags = ["skill"]
+categories = ["技术"]
 +++
 
 先放链接：
